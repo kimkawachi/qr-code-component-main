@@ -1,3 +1,5 @@
+/* fonts */
+
 @font-face {
   font-family: Outfit;
   src: url(../assets/fonts/Outfit-Regular.woff2) format('woff2'),
@@ -25,6 +27,8 @@
     font-display: swap;
 }
 
+/* reset */
+
 html {
     box-sizing: border-box;
     font-size: 15px;
@@ -49,6 +53,8 @@ html {
     height: auto;
   }
 
+  /* custom properties */
+
   :root {
     --White: hsl(0, 0%, 100%);
     --Light-gray: hsl(212, 45%, 89%);
@@ -61,6 +67,8 @@ html {
     font-family: "Outfit", sans-serif;
   }
 
+/* selectors */
+
   .outer {
     
     background-color: var(--White);
@@ -71,7 +79,7 @@ html {
     box-shadow: 5px 5px 15px rgba(0, 0, 0, .1);
   }
 
-   img {
+  .barcode {
     width: 288px;
     margin: 16px 16px 0 16px;
     border-radius: 10px;
@@ -83,7 +91,7 @@ html {
     padding: 10px;
   }
 
-  h1 {
+  .title {
     font-size: 1.5rem;
     font-weight: 700;
     
@@ -96,6 +104,8 @@ html {
     color: var(--Grayish-blue);
     margin-top: 12px;
   }
+
+  /* attributions */
 
   .attribution { 
     font-size: .7rem; 
